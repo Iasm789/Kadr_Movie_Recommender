@@ -14,7 +14,7 @@
 1. Клонируйте репозиторий:
     ```bash
     git clone 
-    cd movierecommendationbot
+    cd Kadr_Movie_Recommender
     ```
 
 2. Установите необходимые зависимости:

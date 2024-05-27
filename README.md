@@ -13,7 +13,7 @@
 
 1. Клонируйте репозиторий:
     ```bash
-    git clone 
+    git clone https://github.com/Iasm789/Kadr_Movie_Recommender.git
     cd Kadr_Movie_Recommender
     ```
 

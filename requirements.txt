@@ -1,6 +1,6 @@
 streamlit
 numpy
-Pillow
+pillow
 pandas
 requests
 beautifulsoup4

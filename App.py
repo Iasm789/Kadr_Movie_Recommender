@@ -131,7 +131,7 @@ st.set_page_config(page_title="Бот для рекомендаций фильм
 
 
 # Основная функция для запуска приложения
-def run():
+def main():
     img1 = Image.open('./meta/Frame 3.png')
     img1 = img1.resize((660, 360))
     st.image(img1, use_column_width=False)
@@ -203,4 +203,4 @@ def run():
                 display_movie_info(movie, link, ratings)
 
 
-run()
+main()

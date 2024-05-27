@@ -126,6 +126,7 @@ def get_movie_by_title(movie_title):
     return None
 
 
+telegram_bot_link = "https://t.me/kadr_movie_bot"
 st.set_page_config(page_title="Бот для рекомендаций фильмов")  # Настройка страницы Streamlit
 
 
@@ -135,6 +136,8 @@ def run():
     img1 = img1.resize((660, 360))
     st.image(img1, use_column_width=False)
     st.title("Бот для рекомендаций фильмов")
+    st.markdown(
+        f"Вы также можете воспользоваться нашим [телеграм-ботом]({telegram_bot_link}).")
     st.markdown(
         '<h4 style="text-align: left; color: #d73b5c;">* Данные основаны на "Наборе данных о фильмах IMDB 5000".</h4>',
         unsafe_allow_html=True)

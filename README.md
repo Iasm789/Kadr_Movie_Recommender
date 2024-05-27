@@ -1,6 +1,8 @@
 # Кадр (Movie Recommender)
 “Кадр” поможет определиться с выбором фильма, опираясь на Ваши предпочтения и вкусы. Отвечайте на вопросы, экономьте свое время и начинайте смотреть фильм прямо сейчас! / "Кадр" will help you decide on the choice of a movie based on your preferences and tastes. Answer the questions, save your time and start watching the movie right now!
 
+[Ссылка на сайт](https://kadrmovie.streamlit.app/), [Ссылка на бота ](https://github.com/Iasm789/Telegram_Kadr_Movie-bot)
+
 Этот проект представляет собой бота для рекомендаций фильмов, созданного с использованием Streamlit и классификатора k-ближайших соседей (KNN). Он предоставляет рекомендации по фильмам на основе выбранных фильмов или жанров, а также получает дополнительную информацию и постеры с IMDb.
 
 ## Функциональность
